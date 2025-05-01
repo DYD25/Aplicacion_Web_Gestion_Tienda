@@ -1,0 +1,430 @@
+/*-----encabezado------------*/
+
+body {
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.cabeza {
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    padding-bottom: 14px;
+    padding-top: 8px;
+}
+
+.imglogo {
+    width: 20%;
+    text-align: center;
+}
+
+.logo {
+    width: 70px;
+}
+
+.titienda {
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.ussesa {
+    box-shadow: 1px 0 rgb(168, 206, 204) inset;
+    width: auto;
+    display: flex;
+    padding-top: 2px;
+}
+
+.fa-user {
+    font-size: 45px;
+    padding: 5px;
+    color: gray;
+    margin: -4px 0px 0px 7px;
+
+}
+
+.sesa {
+    margin: -18px 24px 0px 7px;
+    width: max-content;
+}
+
+.testc {
+    height: 5px;
+    font-size: 20px;
+
+}
+
+.salir {
+    font-size: 17px;
+}
+
+
+/*-----xxxx------------*/
+
+
+/*-----cuerpo------------*/
+.cuerpo {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+}
+
+.esnu {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.estoy {
+    width: 500px;
+    font-size: 17px;
+}
+
+.nuevo {
+    width: 100%;
+    text-align: right;
+}
+
+#col,
+.col,
+.nuevo {
+    color: rgb(83, 93, 234);
+}
+
+.main {
+    display: flex;
+    height: 90%;
+}
+
+
+
+/* ------------alertar------------- */
+.alert {
+    position: absolute;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    z-index: 111;
+    background: #20ddb4;
+    top: 78px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Times New Roman', ;
+}
+
+.danger {
+    padding: 10px;
+    background: #ff1744;
+}
+
+.success {
+    background: #88ffd1;
+    padding: 10px;
+}
+
+.warning {
+    background: wheat;
+    padding: 10px;
+}
+
+/*-----a y botones------------*/
+a,
+a:link,
+a:visited,
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+    --text-transform: uppercase;
+    color: rgb(83, 93, 234);
+}
+
+.acciones {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.guardar:active {
+    background: rgb(134, 192, 140);
+    border-radius: 5px;
+}
+
+.cancelar:active {
+    background: rgb(247, 239, 239);
+    border-radius: 5px;
+}
+
+.cancelar,
+.guardar {
+    color: gray !important;
+}
+
+.guardar {
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.modificar,
+.eliminar,
+.h {
+    text-align: right !important;
+    padding: 5px;
+}
+
+.modificar:active,
+.eliminar:active {
+    background: rgb(202, 213, 214);
+    border-radius: 5px;
+}
+
+/*-----menu------------*/
+.menu {
+    list-style: none;
+    line-height: 40px;
+    width: 16em;
+    list-style-type: none;
+    padding-right: 0;
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    -position: absolute;
+
+}
+
+.pmenu {
+    box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin-right: 15px;
+    -position: absolute;
+
+}
+
+.menu a:hover {
+    margin-left: 1em;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu a {
+    color: #130202;
+    display: block;
+    width: 100%;
+}
+
+.menu li {
+    box-shadow: 2px 0 rgb(243, 243, 195) inset;
+    margin-bottom: 5px;
+    padding-left: 1.5em;
+    list-style-type: none;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.menu li:hover {
+    box-shadow: 15em 0 rgb(243, 243, 195) inset;
+}
+
+ul {
+    padding: 5px;
+    font-size: 19px;
+}
+
+.pegado {
+    position: fixed;
+    top: 115px;
+    z-index: 1000;
+}
+
+
+/*------iconos del menu*/
+.fa-solid {
+    color: gray;
+}
+
+/*-------------------tablas---------------*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #d9ebeb;
+}
+
+
+/*----------input-------*/
+.group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input:hover {
+    border: 1px solid black;
+}
+
+.input {
+    padding: 15px;
+    width: 450px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgb(176, 184, 188);
+    margin: 10px;
+    border-radius: 5px;
+    z-index: 11;
+    font-size: 20px;
+
+}
+
+.label {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    font-size: 16px;
+    padding: 0px 5px;
+    color: rgb(151, 159, 163);
+    background-color: #fff;
+    transition: .3s;
+    pointer-events: none;
+
+}
+
+.input:focus,
+.input:valid {
+    border: 1px solid #20ddb4;
+}
+
+.input:focus+.label,
+.input:valid+.label {
+    color: #688b7d;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(0px, -33px) scale(0.88);
+    z-index: 11;
+}
+
+.lab {
+    transform: translate(0px, -33px) scale(0.88);
+    top: 35px;
+}
+
+.inp {
+    border: 1px solid #20ddb4;
+    color: #130202;
+}
+
+.cont {
+    width: 214px !important;
+}
+
+.incliente {
+    position: absolute;
+    width: 15em;
+}
+
+.inproducto {
+    width: 13em;
+    position: relative;
+}
+
+.clipro {
+    height: 20px;
+    opacity: 0;
+    z-index: 111 !important;
+
+}
+
+.pcli {
+    top: -20px;
+    position: relative;
+}
+
+.ppro {
+    top: -38px;
+    position: relative;
+    font-size: 16px;
+}
+
+.pag {
+
+    background-color: #f2f7f3;
+    border: none;
+    color: rgb(78, 116, 112);
+    position: relative;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    bottom: -45px;
+    width: 35px;
+    height: 30px;
+
+}
+
+.pag:hover {
+    border-radius: 5px;
+    background-color: hsl(175, 65%, 82%);
+}
+
+.pagina-activa {
+    color: white;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+
+/*----------------------------grafica---------------------*/
+
+
+.tablagrafica {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.conten {
+    flex: 1;
+    /* Divide el espacio disponible entre los contenedores */
+    width: 50%;
+    /* Establece un ancho del 50% para cada contenedor */
+    box-sizing: border-box;
+    /* Incluye el padding y el borde en el ancho */
+    margin: 25px;
+}
+
+#mejorventa,
+#cienteventa {
+    width: 80% !important;
+    height: 90% !important;
+}
